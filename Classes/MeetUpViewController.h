@@ -10,9 +10,12 @@
 
 #import "CXMLDocument.h"
 @interface MeetUpViewController : UIViewController {
-
+ NSMutableData *requestedXML;
 }
 - (void)loadXMLData;
 - (IBAction)loadTable;
+
+@property (nonatomic,retain) NSMutableData *requestedXML;
+
 @end
 
