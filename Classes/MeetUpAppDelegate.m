@@ -13,7 +13,7 @@
 
 @synthesize window;
 @synthesize viewController;
-
+@synthesize navController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     

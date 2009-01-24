@@ -11,12 +11,13 @@
 @class MeetUpViewController;
 
 @interface MeetUpAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    MeetUpViewController *viewController;
+	UIWindow *window;
+	IBOutlet UINavigationController *navController; 
+	MeetUpViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet MeetUpViewController *viewController;
-
+@property (nonatomic, retain) IBOutlet UINavigationController *navController;
 @end
 
