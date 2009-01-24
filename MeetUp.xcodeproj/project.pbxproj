@@ -15,6 +15,12 @@
 		2899E5220DE3E06400AC0155 /* MeetUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MeetUpViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* MeetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MeetUpViewController.m */; };
+		D4FA5D770F2B738B00C1E2DB /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D6C0F2B738B00C1E2DB /* CXMLDocument.m */; };
+		D4FA5D780F2B738B00C1E2DB /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D6E0F2B738B00C1E2DB /* CXMLDocument_PrivateExtensions.m */; };
+		D4FA5D790F2B738B00C1E2DB /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D700F2B738B00C1E2DB /* CXMLElement.m */; };
+		D4FA5D7A0F2B738B00C1E2DB /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D720F2B738B00C1E2DB /* CXMLNode.m */; };
+		D4FA5D7B0F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D740F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m */; };
+		D4FA5D7C0F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D760F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,19 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MeetUp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetUp_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FA5D6A0F2B738B00C1E2DB /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		D4FA5D6B0F2B738B00C1E2DB /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		D4FA5D6C0F2B738B00C1E2DB /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		D4FA5D6D0F2B738B00C1E2DB /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		D4FA5D6E0F2B738B00C1E2DB /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		D4FA5D6F0F2B738B00C1E2DB /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		D4FA5D700F2B738B00C1E2DB /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		D4FA5D710F2B738B00C1E2DB /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		D4FA5D720F2B738B00C1E2DB /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		D4FA5D730F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		D4FA5D740F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		D4FA5D750F2B738B00C1E2DB /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		D4FA5D760F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +88,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D4FA5D690F2B738B00C1E2DB /* TouchXML */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -105,6 +125,27 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4FA5D690F2B738B00C1E2DB /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA5D6A0F2B738B00C1E2DB /* TouchXML.h */,
+				D4FA5D6B0F2B738B00C1E2DB /* CXMLDocument.h */,
+				D4FA5D6C0F2B738B00C1E2DB /* CXMLDocument.m */,
+				D4FA5D6D0F2B738B00C1E2DB /* CXMLDocument_PrivateExtensions.h */,
+				D4FA5D6E0F2B738B00C1E2DB /* CXMLDocument_PrivateExtensions.m */,
+				D4FA5D6F0F2B738B00C1E2DB /* CXMLElement.h */,
+				D4FA5D700F2B738B00C1E2DB /* CXMLElement.m */,
+				D4FA5D710F2B738B00C1E2DB /* CXMLNode.h */,
+				D4FA5D720F2B738B00C1E2DB /* CXMLNode.m */,
+				D4FA5D730F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.h */,
+				D4FA5D740F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m */,
+				D4FA5D750F2B738B00C1E2DB /* CXMLNode_XPathExtensions.h */,
+				D4FA5D760F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m */,
+			);
+			name = TouchXML;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +205,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MeetUpAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MeetUpViewController.m in Sources */,
+				D4FA5D770F2B738B00C1E2DB /* CXMLDocument.m in Sources */,
+				D4FA5D780F2B738B00C1E2DB /* CXMLDocument_PrivateExtensions.m in Sources */,
+				D4FA5D790F2B738B00C1E2DB /* CXMLElement.m in Sources */,
+				D4FA5D7A0F2B738B00C1E2DB /* CXMLNode.m in Sources */,
+				D4FA5D7B0F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m in Sources */,
+				D4FA5D7C0F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
