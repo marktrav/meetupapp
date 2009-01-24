@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TouchXML.h"
+
+#import "CXMLDocument.h"
 @interface MeetUpViewController : UIViewController {
 
 }

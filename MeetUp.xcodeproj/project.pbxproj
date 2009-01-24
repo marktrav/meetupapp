@@ -226,7 +226,9 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MeetUp_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = MeetUp;
 			};
 			name = Debug;
