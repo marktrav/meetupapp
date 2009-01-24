@@ -7,10 +7,21 @@
 //
 
 #import "MeetUpViewController.h"
+#import "DataTableViewController.h"
 
 @implementation MeetUpViewController
 
 
+- (IBAction)loadTable{
+	DataTableViewController *dt = [[DataTableViewController alloc] initWithNibName:@"DataTable" 
+																																					bundle:nil]; 
+	NSLog(@"%@",[self navigationController]);
+	[[self navigationController] pushViewController:dt animated:YES];
+	NSLog(@"clicked");
+}
+
+- (void)loadXMLData{
+}
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.

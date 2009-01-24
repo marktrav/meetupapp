@@ -12,6 +12,7 @@
 @interface MeetUpViewController : UIViewController {
 
 }
-
+- (void)loadXMLData;
+- (IBAction)loadTable;
 @end
 

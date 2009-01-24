@@ -277,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>4</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D426EAE50F1042D4001E4594</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MeetUpViewController.m</string>
+								<string>MeetUpAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,18 +326,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D426EAE60F1042D4001E4594</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MeetUpViewController.m</string>
+										<string>MeetUpAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D4FA5DC10F2B7D1700C1E2DB</string>
+										<string>D4FA5E700F2B8D1B00C1E2DB</string>
 										<key>history</key>
 										<array>
 											<string>D4FA5D980F2B785300C1E2DB</string>
-											<string>D4FA5DAB0F2B7C4600C1E2DB</string>
-											<string>D4FA5DAC0F2B7C4600C1E2DB</string>
-											<string>D4FA5DB90F2B7CFA00C1E2DB</string>
-											<string>D4FA5DC00F2B7D0900C1E2DB</string>
+											<string>D4FA5E560F2B8CBF00C1E2DB</string>
+											<string>D4FA5E570F2B8CBF00C1E2DB</string>
+											<string>D4FA5E580F2B8CBF00C1E2DB</string>
+											<string>D4FA5E670F2B8CD300C1E2DB</string>
+											<string>D4FA5E6D0F2B8D1B00C1E2DB</string>
+											<string>D4FA5E6E0F2B8D1B00C1E2DB</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -352,6 +354,33 @@
 											<string>D4FA5DB30F2B7C4600C1E2DB</string>
 											<string>D4FA5DB40F2B7C4600C1E2DB</string>
 											<string>D4FA5DBB0F2B7CFA00C1E2DB</string>
+											<string>D4FA5DC80F2B7F7400C1E2DB</string>
+											<string>D4FA5DC90F2B7F7400C1E2DB</string>
+											<string>D4FA5DD00F2B832500C1E2DB</string>
+											<string>D4FA5DD10F2B832500C1E2DB</string>
+											<string>D4FA5DD20F2B832500C1E2DB</string>
+											<string>D4FA5DD30F2B832500C1E2DB</string>
+											<string>D4FA5DD40F2B832500C1E2DB</string>
+											<string>D4FA5DD50F2B832500C1E2DB</string>
+											<string>D4FA5DD90F2B83EE00C1E2DB</string>
+											<string>D4FA5DDA0F2B83EE00C1E2DB</string>
+											<string>D4FA5E000F2B884A00C1E2DB</string>
+											<string>D4FA5E010F2B884A00C1E2DB</string>
+											<string>D4FA5E020F2B884A00C1E2DB</string>
+											<string>D4FA5E030F2B884A00C1E2DB</string>
+											<string>D4FA5E040F2B884A00C1E2DB</string>
+											<string>D4FA5E5B0F2B8CBF00C1E2DB</string>
+											<string>D4FA5E5C0F2B8CBF00C1E2DB</string>
+											<string>D4FA5E5D0F2B8CBF00C1E2DB</string>
+											<string>D4FA5E5E0F2B8CBF00C1E2DB</string>
+											<string>D4FA5E5F0F2B8CBF00C1E2DB</string>
+											<string>D4FA5E600F2B8CBF00C1E2DB</string>
+											<string>D4FA5E610F2B8CBF00C1E2DB</string>
+											<string>D4FA5E620F2B8CBF00C1E2DB</string>
+											<string>D4FA5E630F2B8CBF00C1E2DB</string>
+											<string>D4FA5E690F2B8CD300C1E2DB</string>
+											<string>D4FA5E6A0F2B8CD300C1E2DB</string>
+											<string>D4FA5E6F0F2B8D1B00C1E2DB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -662,6 +691,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>D4FA5E100F2B886F00C1E2DB</string>
+		<string>D4FA5E110F2B886F00C1E2DB</string>
 		<string>D4FA5D800F2B752100C1E2DB</string>
 		<string>/Users/twoism/Cocoa/MeetUp/MeetUp.xcodeproj</string>
 	</array>

@@ -21,6 +21,8 @@
 		D4FA5D7A0F2B738B00C1E2DB /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D720F2B738B00C1E2DB /* CXMLNode.m */; };
 		D4FA5D7B0F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D740F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m */; };
 		D4FA5D7C0F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5D760F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m */; };
+		D4FA5DE60F2B85FD00C1E2DB /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA5DE50F2B85FD00C1E2DB /* DataTableViewController.m */; };
+		D4FA5DE80F2B866E00C1E2DB /* DataTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4FA5DE70F2B866E00C1E2DB /* DataTable.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,9 @@
 		D4FA5D740F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
 		D4FA5D750F2B738B00C1E2DB /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
 		D4FA5D760F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		D4FA5DE40F2B85FD00C1E2DB /* DataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewController.h; sourceTree = "<group>"; };
+		D4FA5DE50F2B85FD00C1E2DB /* DataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewController.m; sourceTree = "<group>"; };
+		D4FA5DE70F2B866E00C1E2DB /* DataTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTable.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,8 @@
 				1D3623250D0F684500981E51 /* MeetUpAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* MeetUpViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* MeetUpViewController.m */,
+				D4FA5DE40F2B85FD00C1E2DB /* DataTableViewController.h */,
+				D4FA5DE50F2B85FD00C1E2DB /* DataTableViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 				2899E5210DE3E06400AC0155 /* MeetUpViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				D4FA5DE70F2B866E00C1E2DB /* DataTable.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* MeetUpViewController.xib in Resources */,
+				D4FA5DE80F2B866E00C1E2DB /* DataTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +220,7 @@
 				D4FA5D7A0F2B738B00C1E2DB /* CXMLNode.m in Sources */,
 				D4FA5D7B0F2B738B00C1E2DB /* CXMLNode_PrivateExtensions.m in Sources */,
 				D4FA5D7C0F2B738B00C1E2DB /* CXMLNode_XPathExtensions.m in Sources */,
+				D4FA5DE60F2B85FD00C1E2DB /* DataTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
